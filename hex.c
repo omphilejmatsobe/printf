@@ -4,7 +4,7 @@
  * @val: arguments.
  * Return: counter.
  */
-int printf_hex(va_list arg)
+int hex(va_list arg)
 {
 	int x, *ar, y;
 	unsigned int num, temp;

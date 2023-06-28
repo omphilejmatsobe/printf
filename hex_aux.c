@@ -5,7 +5,7 @@
  * @num: int argumen.
  * Return: hex
  */
-int printf_hex_aux(unsigned long int arg)
+int aux(unsigned long int arg)
 {
 	long int x, *arr, hex;
 	unsigned long int temp;
@@ -34,4 +34,3 @@ int printf_hex_aux(unsigned long int arg)
 	free(arr);
 	return (hex);
 }
-

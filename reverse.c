@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *_print_rev_recursion - prints a string in reverse
- * @args: input struct va_arg
+ * reverse - prints a string in reverse
+ * @args: input struct va_list args
  * @s: input pointer to string
  */
 
