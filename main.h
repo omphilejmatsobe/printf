@@ -96,5 +96,6 @@ int _write(char c, char buffer[],
 	int flags, int width, int precision, int size);
 int _putchar(char c);
 long int size_conv(long int num, int size);
+int get_precise(const char *format, int *i, va_list list);
 
 #endif
