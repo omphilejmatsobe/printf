@@ -40,7 +40,7 @@ int print_int(va_list types, char buffer[],
 	long int n = va_arg(types, long int);
 	unsigned long int num;
 
-	n = _size(n, size);
+	n = size_conv(n, size);
 
 	if (n == 0)
 		buffer[x--] = '0';

@@ -95,6 +95,6 @@ int int_number(int is_negative, int ind, char buffer[],
 int _write(char c, char buffer[],
 	int flags, int width, int precision, int size);
 int _putchar(char c);
-
+long int size_conv(long int num, int size);
 
 #endif
