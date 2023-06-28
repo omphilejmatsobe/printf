@@ -63,5 +63,4 @@ int print_int(va_list types, char buffer[],
 	x++;
 
 	return (int_number(_neg, x, buffer, flags, width, precision, size));
-	
 }
